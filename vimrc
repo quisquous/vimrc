@@ -55,3 +55,10 @@ set tags=./tags;/
 let g:Tlist_Auto_Open = 1
 let g:Tlist_Exit_OnlyWindow =1
 let g:Tlist_File_Fold_Auto_Close = 1
+
+" DetectIndent plugin
+set expandtab ts=4 sw=4
+let g:detectindent_preferred_expandtab = 1
+let g:detectindent_preferred_indent = 4
+autocmd BufReadPost * :DetectIndent
+autocmd BufEnter ?akefile* set noexpandtab ts=4 sw=4
