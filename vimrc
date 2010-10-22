@@ -72,3 +72,8 @@ autocmd BufEnter ?akefile* set noexpandtab ts=4 sw=4
 
 " Fuzzy finder
 map <leader>t :FuzzyFinderTextMate<CR>
+"let g:fuzzy_roots =
+let g:fuzzy_ceiling=1000000
+let g:fuzzy_ignore="*.o,.svn"
+let g:fuzzy_matching_limit=10
+let g:fuzzy_enumerating_limit=10
