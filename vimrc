@@ -39,8 +39,15 @@ set backspace=2
 set number
 set ignorecase
 set smartcase
+set hidden
 set guioptions-=T
 set guioptions-=m
+
+set shortmess=atI
+set scrolloff=3
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
+let mapleader = ","
 
 " MiniBufExplorer plugin
 "   let ctrl+hjkl swap windows
