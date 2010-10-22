@@ -43,3 +43,6 @@
 [submodule "bundle/fuzzy_file_finder"]
 	path = bundle/fuzzy_file_finder
 	url = http://github.com/jamis/fuzzy_file_finder.git
+[submodule "bundle/vim-fuzzyfinder"]
+	path = bundle/vim-fuzzyfinder
+	url = http://github.com/vim-scripts/FuzzyFinder.git
