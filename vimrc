@@ -69,3 +69,6 @@ let g:detectindent_preferred_expandtab = 1
 let g:detectindent_preferred_indent = 4
 autocmd BufReadPost * :DetectIndent
 autocmd BufEnter ?akefile* set noexpandtab ts=4 sw=4
+
+" Fuzzy finder
+map <leader>t :FuzzyFinderTextMate<CR>
