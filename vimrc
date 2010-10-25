@@ -72,8 +72,5 @@ autocmd BufEnter ?akefile* set noexpandtab ts=4 sw=4
 
 " Fuzzy finder
 map <leader>t :FuzzyFinderTextMate<CR>
-"let g:fuzzy_roots=["/home/enne/chrome/src/chrome/renderer","/home/enne/chrome/src/chrome/ggl","/home/enne/chrome/src/chrome/gpu","/home/enne/chrome/src/gpu","/home/enne/chrome/src/third_party/WebKit/WebCore/html/canvas"]
-"let g:fuzzy_ceiling=1000000
-let g:fuzzy_ignore="*.o,.svn"
-let g:fuzzy_matching_limit=10
-let g:fuzzy_enumerating_limit=10
+let g:fuzzy_ceiling=50000
+let g:fuzzy_ignore="*/out,*/.git,*/.svn,*/test,*/tests,*/LayoutTests,*/o3d,*/icu,*/native_client,*/chromeos,*/hunspell_dictionaries,*/ffmpeg,*/mesa,*/breakpad,*/build"
