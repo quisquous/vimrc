@@ -73,4 +73,5 @@ autocmd BufEnter ?akefile* set noexpandtab ts=4 sw=4
 " Fuzzy finder
 map <leader>t :FuzzyFinderTextMate<CR>
 let g:fuzzy_ceiling=50000
-let g:fuzzy_ignore="*/out,*/.git,*/.svn,*/test,*/tests,*/LayoutTests,*/o3d,*/icu,*/native_client,*/chromeos,*/hunspell_dictionaries,*/ffmpeg,*/mesa,*/breakpad,*/build"
+let g:fuzzy_ignore="*/out,*/.git,*/.svn,*/test,*/tests,*/LayoutTests,*/o3d,*/icu,*/native_client,*/chromeos,*/hunspell_dictionaries,*/ffmpeg,*/mesa,*/breakpad,*/build,*/data,*/layout-test-results"
+command! -bang -narg=+ E :FuzzyFinderTextMate <args>
