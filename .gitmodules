@@ -52,3 +52,6 @@
 [submodule "bundle/fuzzyfinder_textmate/plugin"]
 	path = bundle/fuzzyfinder_textmate/plugin
 	url = http://github.com/sethbc/fuzzyfinder_textmate.git
+[submodule "bundle/svndiff"]
+	path = bundle/svndiff
+	url = http://github.com/vim-scripts/svndiff.git

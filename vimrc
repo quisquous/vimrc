@@ -87,3 +87,11 @@ map <leader>b :MiniBufExplorer<CR>
 
 " Header swap
 map <leader>a :A<CR>
+
+" svndiff
+noremap <F3> :call Svndiff("prev")<CR> 
+noremap <F4> :call Svndiff("next")<CR>
+let g:svndiff_autoupdate=1
+hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
+hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
+hi DiffChange   ctermfg=0 ctermbg=3 guibg='yellow'
