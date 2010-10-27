@@ -84,3 +84,6 @@ let g:NERDTreeQuitOnOpen=1
 
 " Minibufexplorer
 map <leader>b :MiniBufExplorer<CR>
+
+" Header swap
+map <leader>a :A<CR>
