@@ -42,6 +42,7 @@ set smartcase
 set hidden
 set guioptions-=T
 set guioptions-=m
+set sessionoptions=buffers
 
 set shortmess=atI
 set scrolloff=3
