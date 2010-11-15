@@ -50,6 +50,9 @@ nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 let mapleader = ","
 
+" Search current word, but don't change cursor position
+nmap <Leader>* :let @/ = "<C-r><C-w>"<CR>
+
 " MiniBufExplorer plugin
 "   let ctrl+hjkl swap windows
 let g:miniBufExplMapWindowNavVim = 1
@@ -95,3 +98,4 @@ let g:svndiff_autoupdate=1
 hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
 hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
 hi DiffChange   ctermfg=0 ctermbg=3 guibg='yellow'
+
