@@ -45,7 +45,7 @@
 	url = http://github.com/vim-scripts/svndiff.git
 [submodule "bundle/vim-kolmafia"]
 	path = bundle/vim-kolmafia
-	url = git@github.com:quisquous/vim-kolmafia.git
+	url = git://github.com/quisquous/vim-kolmafia.git
 [submodule "bundle/quickopen"]
 	path = bundle/quickopen
 	url = https://github.com/natduca/quickopen.git
