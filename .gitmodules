@@ -40,18 +40,6 @@
 [submodule "bundle/a.vim"]
 	path = bundle/a.vim
 	url = git://github.com/vim-scripts/a.vim.git
-[submodule "bundle/fuzzy_file_finder"]
-	path = bundle/fuzzy_file_finder
-	url = http://github.com/jamis/fuzzy_file_finder.git
-[submodule "bundle/vim-fuzzyfinder"]
-	path = bundle/vim-fuzzyfinder
-	url = http://github.com/vim-scripts/FuzzyFinder.git
-[submodule "bundle/vim-l9"]
-	path = bundle/vim-l9
-	url = http://github.com/vim-scripts/L9.git
-[submodule "bundle/fuzzyfinder_textmate/plugin"]
-	path = bundle/fuzzyfinder_textmate/plugin
-	url = http://github.com/sethbc/fuzzyfinder_textmate.git
 [submodule "bundle/svndiff"]
 	path = bundle/svndiff
 	url = http://github.com/vim-scripts/svndiff.git

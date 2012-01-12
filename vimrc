@@ -74,12 +74,6 @@ let g:detectindent_preferred_indent = 4
 autocmd BufReadPost * :DetectIndent
 autocmd BufEnter ?akefile* set noexpandtab ts=4 sw=4
 
-" Fuzzy finder
-map <leader>t :FuzzyFinderTextMate<CR>
-let g:fuzzy_ceiling=50000
-let g:fuzzy_ignore="*/out,*/.git,*/.svn,*/test,*/tests,*/LayoutTests,*/o3d,*/icu,*/native_client,*/chromeos,*/hunspell_dictionaries,*/ffmpeg,*/mesa,*/breakpad,*/build,*/data,*/layout-test-results"
-command! -bang -narg=+ E :execute "FuzzyFinderTextMate" substitute(<q-args>, " ", "", "g")
-
 " NERDTree
 " Open nerd tree on the current buffer's directory, rather than in cwd
 map <leader>d :execute "NERDTree" bufname("%")<CR>
