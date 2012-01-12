@@ -63,7 +63,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 set tags=./tags;/
 
 " taglist plugin
-let g:Tlist_Auto_Open = 1
+let g:Tlist_Auto_Open = 0
 let g:Tlist_Exit_OnlyWindow =1
 let g:Tlist_File_Fold_Auto_Close = 1
 
