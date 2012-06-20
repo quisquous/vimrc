@@ -35,7 +35,7 @@ set ruler
 set showcmd
 set incsearch
 set hlsearch
-set backspace=2
+set backspace=indent,eol,start
 set number
 set ignorecase
 set smartcase
@@ -43,6 +43,9 @@ set hidden
 set guioptions-=T
 set guioptions-=m
 set sessionoptions=buffers
+set smarttab
+set autoindent nocindent nosmartindent
+set nocompatible
 
 set shortmess=atI
 set scrolloff=3
