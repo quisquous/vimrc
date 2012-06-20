@@ -1,11 +1,11 @@
 " Needed on some linux distros.
 " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
-filetype off 
+filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 " google config
-syntax on 
+syntax on
 if filereadable("/usr/share/vim/google/google.vim")
    source /usr/share/vim/google/google.vim
 endif
@@ -86,7 +86,7 @@ map <leader>b :MiniBufExplorer<CR>
 map <leader>a :A<CR>
 
 " svndiff
-noremap <F3> :call Svndiff("prev")<CR> 
+noremap <F3> :call Svndiff("prev")<CR>
 noremap <F4> :call Svndiff("next")<CR>
 let g:svndiff_autoupdate=1
 hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
