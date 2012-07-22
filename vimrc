@@ -85,8 +85,10 @@ let g:NERDTreeQuitOnOpen=1
 " Minibufexplorer
 map <leader>b :MiniBufExplorer<CR>
 
-" Header swap
+" a.vim config
 map <leader>a :A<CR>
+let g:alternateRelativeFiles = 1
+let g:alternateNoDefaultAlternate = 1
 
 " svndiff
 noremap <F3> :call Svndiff("prev")<CR>
