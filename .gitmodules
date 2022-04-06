@@ -28,9 +28,6 @@
 [submodule "bundle/minibufexpl.vim"]
 	path = bundle/minibufexpl.vim
 	url = git@github.com:vim-scripts/minibufexpl.vim.git
-[submodule "bundle/taglist.vim"]
-	path = bundle/taglist.vim
-	url = git@github.com:vim-scripts/taglist.vim.git
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
 	url = git@github.com:ciaranm/detectindent.git
