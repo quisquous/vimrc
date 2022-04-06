@@ -1,48 +1,48 @@
 [submodule "vim-pathogen"]
 	path = vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = git@github.com:tpope/vim-pathogen.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
-	url = git://github.com/tpope/vim-abolish.git
+	url = git@github.com:tpope/vim-abolish.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
-	url = git://github.com/tpope/vim-git.git
+	url = git@github.com:tpope/vim-git.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
+	url = git@github.com:tpope/vim-repeat.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = git@github.com:tpope/vim-surround.git
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
-	url = git://github.com/tsaleh/vim-align.git
+	url = git@github.com:tsaleh/vim-align.git
 [submodule "bundle/vim-supertab"]
 	path = bundle/vim-supertab
-	url = git://github.com/ervandew/supertab.git
+	url = git@github.com:ervandew/supertab.git
 [submodule "bundle/minibufexpl.vim"]
 	path = bundle/minibufexpl.vim
-	url = git://github.com/vim-scripts/minibufexpl.vim.git
+	url = git@github.com:vim-scripts/minibufexpl.vim.git
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
-	url = git://github.com/vim-scripts/taglist.vim.git
+	url = git@github.com:vim-scripts/taglist.vim.git
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
-	url = git://github.com/ciaranm/detectindent.git
+	url = git@github.com:ciaranm/detectindent.git
 [submodule "bundle/a.vim"]
 	path = bundle/a.vim
-	url = git://github.com/vim-scripts/a.vim.git
+	url = git@github.com:vim-scripts/a.vim.git
 [submodule "bundle/svndiff"]
 	path = bundle/svndiff
-	url = git://github.com/vim-scripts/svndiff.git
+	url = git@github.com:vim-scripts/svndiff.git
 [submodule "bundle/vim-kolmafia"]
 	path = bundle/vim-kolmafia
-	url = git://github.com/quisquous/vim-kolmafia.git
+	url = git@github.com:quisquous/vim-kolmafia.git
 [submodule "bundle/quickopen"]
 	path = bundle/quickopen
-	url = git://github.com/natduca/quickopen.git
+	url = git@github.com:natduca/quickopen.git
